@@ -1,0 +1,8 @@
+functions-framework
+google-cloud-bigquery
+google-cloud-firestore
+pandas
+scikit-learn
+joblib
+numpy
+db-dtypes
