@@ -105,5 +105,3 @@ If you want, I can also:
 - add a small `README` page inside `app/` that the site can render for operators,
 - generate a minimal GitHub Actions workflow to build and deploy the frontend to Vercel or Cloud Run,
 - or add a tiny test harness (Jest + React Testing Library) with 1-2 smoke tests.
-
-Update the placeholder links above with your deployment-specific URLs before sharing the README with external users.

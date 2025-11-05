@@ -108,18 +108,3 @@ Quick recovery steps:
 # gsutil cp model.joblib gs://BUCKET_NAME/model.joblib
 
 ---
-
-## Links / References
-
-- GCP Project Console: 
-- API Gateway endpoint: 
-- Vertex AI Endpoint: 
-- BigQuery dataset: 
-- Firestore console: 
-- Cloud Storage bucket: 
-
-(Replace the lines above with environment-specific URLs and dashboard links.)
-
----
-
-If you need a deployment script, CI/CD pipeline (Cloud Build / GitHub Actions) or concrete IAM bindings, add a request in the repo issues and include your preferred deployment tooling and environment details.

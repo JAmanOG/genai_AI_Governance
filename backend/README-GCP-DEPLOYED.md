@@ -85,36 +85,9 @@ Make sure the Cloud Run / Cloud Function service account has least-privilege rol
 - Use `functions_framework` for Cloud Functions local testing (python -m functions_framework --target YOUR_HANDLER).
 - For Cloud Run local testing, use Docker and `gcloud run services replace` / `gcloud builds submit` workflows.
 
----
-
-## Useful links (fill in for your environment)
-
-- CI/CD pipeline: 
-
-- Production Vertex AI Model & Endpoint: 
-
-- Artifact Registry / Container images: 
-
-- BigQuery dataset console: 
-
-- Firestore console collection: 
-
-- Cloud Storage bucket(s): 
-
-- Runbooks / on-call contact: 
-
----
-
 ## Troubleshooting
 
 - Model predictions failing: verify ENDPOINT_ID, Vertex AI model health, and that the invocation payload matches the feature order used at training.
 - Missing data in BigQuery: check ingestion logs and data seeder job outputs in Cloud Logging / Cloud Storage.
 - Permissions errors: verify service account roles and that the runtime identity matches the configured project.
 
----
-
-If you want, I can also:
-- Add a short diagram of the architecture
-- Produce per-service deployment commands or GitHub Actions workflow templates
-
-(Placeholders above are intentionally blank — add your project-specific console links and runbooks.)

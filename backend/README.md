@@ -125,24 +125,5 @@ Note: these are reference steps — adapt to your CI/CD.
 
 - Trigger Cloud Scheduler job (manual): use `gcloud scheduler jobs run JOB_NAME`
 
-## Links & References (placeholders)
-
-- Architecture diagram: [PLACEHOLDER - insert architecture diagram URL]
-
-- Production API gateway URL: [PLACEHOLDER - insert URL]
-
-- Vertex AI model endpoint console: [PLACEHOLDER - insert Vertex AI endpoint link]
-
-- Firestore collection (infra, alerts): [PLACEHOLDER - insert Firestore console link]
-
-- BigQuery dataset / tables: [PLACEHOLDER - insert BigQuery console link]
-
-- CI/CD pipeline (link): [PLACEHOLDER - insert pipeline link]
-
-## Contact
-
-For questions about backend deployment or credentials, contact the platform or engineering lead.
-
----
 
 This README is intended as a reference. Update sections and placeholders with your production links and access instructions before sharing externally.

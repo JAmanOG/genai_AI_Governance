@@ -70,11 +70,10 @@ Dashboard              | Interactive Next.js dashboard pulling from API Gateway 
 - Demo video: [Demo video (Google Drive folder)](https://drive.google.com/drive/folders/1LEh1x6UypaXSy0o8a0V5eheLdyiTF6F_?usp=sharing) — replace with a shareable direct video link if available.
 - Presentation (PPT / PDF): [Prototype slide deck & demo script (PDF)](https://storage.googleapis.com/vision-hack2skill-production/innovator/USER00788870/1762366567782-GenAIExchangeHackathonPrototypeSubmissionScriptDevs.pdf)
 - Architecture diagram:
-  - Embedded (repo): ![Architecture diagram](./docs/architecture.png)
-  - Full-size / downloadable: [Architecture diagram (PNG)](./docs/architecture.png) — commit a high-res PNG/SVG to ./docs or ./assets and update this path.
+  - Embedded (repo): ![Architecture diagram](architecture.png)
+  - Full-size / downloadable: [Architecture diagram (PNG)](architecture.png) — commit a high-res PNG/SVG to ./docs or ./assets and update this path.
 - Backend API docs / Postman:
   - Docs: [backend/README.md](backend/README.md)
-  - Postman collection (placeholder): [backend/postman_collection.json](backend/postman_collection.json) — add exported collection or hosted API docs URL.
   - API Gateway URL: [API Gateway (Cloud Function) URL](https://us-central1-artful-affinity-476513-t7.cloudfunctions.net/get_dashboard_data)
 
 Note: replace local-repo paths and placeholder links with final public URLs (Cloud Console, Postman, or hosted assets) before publishing.
@@ -125,15 +124,8 @@ How to update the README with your links
 
 Credits & Contact
 -----------------
-ScriptDevs — Team Lead: Aman Jaiswal (contact: [INSERT_EMAIL])
+ScriptDevs — Team Lead: Aman Jaiswal (contact: [hello@aman-jaiswal.tech])
 
-If you want, I can:
-- add the demo video and PPT links into the README and add a short demo-script for judges
-- generate a simple architecture PNG/SVG and embed it here
-- add a minimal GitHub Actions workflow to build the frontend and deploy to Vercel
-
----
-Generated: Nov 06, 2025
 # Governance Dashboard — Backend Reference
 
 This repository contains reference implementations for the backend services powering the Governance Dashboard. All backend services are considered deployed to Google Cloud Platform (GCP) — this README documents the architecture, service responsibilities, configuration, and local development notes for reference only.
@@ -278,19 +270,6 @@ Notes:
 
 - Use the notebooks under `backend/PREDICTIVE MODELS/` to re-train models.
 - When updating model artifacts, ensure the serving container (Vertex or sklearn container) expects the same pipeline signature.
-
----
-
-## Links (fill-in)
-
-- GCP Project Console: 
-- API Gateway (Cloud Function) URL: 
-- Realtime Scorer endpoint: 
-- Batch Scorer Cloud Function: 
-- Citizen Services bucket (GCS): 
-- BigQuery dataset console: 
-- Vertex AI model / endpoint: 
-- Monitoring dashboard: 
 
 ---
 
