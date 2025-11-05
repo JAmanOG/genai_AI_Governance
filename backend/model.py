@@ -38,7 +38,7 @@ from sklearn.svm import SVC
 import json
 
 # --- !!! YOUR PROJECT DETAILS !!! ---
-PROJECT_ID = "artful-affinity-476513-t7"
+PROJECT_ID = " "
 BQ_DATASET = "complete_db"
 REGION = "us-central1"
 MODEL_DISPLAY_NAME = "disease_outbreak_prediction_model"

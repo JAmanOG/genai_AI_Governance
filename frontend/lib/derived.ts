@@ -1,5 +1,31 @@
 import { type AppData, type Department, type DepartmentMetric, type DepartmentFactor } from "./app-data"
 
+function cloneDepartments(source: Department[] | undefined): Department[] {
+  if (!Array.isArray(source)) return []
+  return source.map((dept) => ({
+    ...dept,
+    metrics: dept.metrics.map((m) => ({ ...m })),
+    factors: dept.factors.map((f) => ({ ...f })),
+  }))
+}
+
+function hasPipelineSignals(data: AppData): boolean {
+  const pipelines = data.pipelines
+  if (!pipelines) return false
+  const health = pipelines.health?.data
+  const infra = pipelines.infrastructure?.data
+  const safetyScores = pipelines.publicSafety?.data?.scores
+  const safetyDash = pipelines.publicSafety?.data?.dashboard
+  const csf = pipelines.citizenServicesFeedback?.data
+  return (
+    (Array.isArray(health) && health.length > 0) ||
+    (infra && Object.keys(infra).length > 0) ||
+    (Array.isArray(safetyScores) && safetyScores.length > 0) ||
+    (safetyDash && Object.keys(safetyDash).length > 0) ||
+    (Array.isArray(csf?.forecasts) && csf.forecasts.length > 0)
+  )
+}
+
 function fmtPct(n: number | undefined): string {
   if (n === undefined || Number.isNaN(n)) return "—"
   return `${Math.round(n)}%`
@@ -55,6 +81,10 @@ function getCSFForecastsForDistrict(data: AppData, district?: string) {
 }
 
 export function buildDepartments(data: AppData, district: string | null): Department[] {
+  if (!hasPipelineSignals(data)) {
+    return cloneDepartments(data.departments)
+  }
+
   const selected = district ?? undefined
 
   // Health metrics
@@ -187,6 +217,24 @@ export function getDistrictDetails(data: AppData, district: string) {
     time: a?.time ?? "",
     level: a?.level ?? "medium",
   }))
+
+  if (!triggers.length && !insights.length && !hasPipelineSignals(data)) {
+    const districtLc = district.toLowerCase()
+    const fallbackAlerts = (data.alerts || []).filter((a) =>
+      String(a?.district || "").toLowerCase().includes(districtLc)
+    )
+    const fallbackTriggers = fallbackAlerts
+      .map((a) => a?.trigger)
+      .filter((t): t is string => !!t)
+    const fallbackInsights = fallbackAlerts.slice(0, 3).map((a) => ({
+      title: a?.title ?? "Alert",
+      description: a?.description ?? "",
+      time: a?.time ?? "",
+      level: a?.level ?? "medium",
+    }))
+    triggers.push(...fallbackTriggers)
+    insights.push(...fallbackInsights)
+  }
 
   return {
     overview: { risk, level },

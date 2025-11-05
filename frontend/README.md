@@ -99,14 +99,6 @@ When deploying, set the public runtime env vars (NEXT_PUBLIC_*) via your hosting
 - Follow the project's TypeScript and formatting conventions.
 - When adding features that depend on backend changes, coordinate with the backend owner so API shapes remain compatible.
 
-## Links / placeholders
-
-- Production site: [INSERT_PRODUCTION_FRONTEND_URL]
-- Staging site: [INSERT_STAGING_URL]
-- API Gateway (backend): [INSERT_API_GATEWAY_URL]
-- CI/CD (actions / pipelines): [INSERT_CICD_LINK]
-- Monitoring / Analytics: [INSERT_MONITORING_DASHBOARD]
-
 ---
 
 If you want, I can also:
