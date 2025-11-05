@@ -1,0 +1,8 @@
+functions-framework
+numpy
+joblib
+xgboost
+pandas
+scikit-learn
+gunicorn
+google-cloud-firestore

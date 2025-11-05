@@ -1,0 +1,17 @@
+{
+    "district": "Nagpur (Real Risk Test)",
+    "pm25_level": 90.0,
+    "pm10_level": 120.0,
+    "air_quality_index": 130.0,
+    "water_quality_index": 25.0,           
+    "waste_collection_efficiency": 30.0,   
+    "population_density_per_sqkm": 2500.0,
+    "avg_household_size": 4.1,
+    "patient_inflow_mean": 210.5,
+    "pm25_roll_1w": 155.0,
+    "pm25_roll_2w": 153.1,
+    "pm25_roll_4w": 150.7,
+    "patient_inflow_roll_1w": 205.0,
+    "patient_inflow_roll_2w": 200.0,
+    "patient_inflow_roll_4w": 198.0
+}

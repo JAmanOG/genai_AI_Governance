@@ -1,0 +1,3541 @@
+{
+  "kpiData": {
+    "critical": {
+      "value": 0,
+      "label": "CRITICAL ALERTS",
+      "iconName": "AlertCircle",
+      "color": "text-destructive"
+    },
+    "highRisk": {
+      "value": "0/35",
+      "label": "HIGH RISK DISTRICTS",
+      "iconName": "TrendingUp",
+      "color": "text-orange-500"
+    },
+    "population": {
+      "value": "78",
+      "label": "AFFECTED POPULATION",
+      "iconName": "Users",
+      "color": "text-blue-500"
+    },
+    "budget": {
+      "value": "Not available",
+      "label": "BUDGET IMPACT",
+      "iconName": "Wallet",
+      "color": "text-emerald-500"
+    }
+  },
+  "districtRisks": {
+    "Ahmednagar": {
+      "district": "Ahmednagar",
+      "backlog_cr": 139.92,
+      "risk": 46.04,
+      "top_factor": "ROAD-010 (Urgency: 50%)",
+      "avg_impact": 5.1,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Ahmednagar"
+    },
+    "Akola": {
+      "district": "Akola",
+      "backlog_cr": 86.14,
+      "risk": 46.98,
+      "top_factor": "ROAD-081 (Urgency: 48%)",
+      "avg_impact": 4.8,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Akola"
+    },
+    "Amravati": {
+      "district": "Amravati",
+      "backlog_cr": 112.21,
+      "risk": 38.27,
+      "top_factor": "ROAD-014 (Urgency: 48%)",
+      "avg_impact": 7.0,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Amravati"
+    },
+    "Aurangabad": {
+      "district": "Aurangabad",
+      "backlog_cr": 90.66,
+      "risk": 57.88,
+      "top_factor": "ROAD-039 (Urgency: 48%)",
+      "avg_impact": 7.2,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Aurangabad"
+    },
+    "Beed": {
+      "district": "Beed",
+      "backlog_cr": 98.84,
+      "risk": 46.05,
+      "top_factor": "ROAD-060 (Urgency: 51%)",
+      "avg_impact": 4.3,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Beed"
+    },
+    "Bhandara": {
+      "district": "Bhandara",
+      "backlog_cr": 61.33,
+      "risk": 42.24,
+      "top_factor": "ROAD-292 (Urgency: 39%)",
+      "avg_impact": 4.1,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Bhandara"
+    },
+    "Buldhana": {
+      "district": "Buldhana",
+      "backlog_cr": 131.64,
+      "risk": 50.78,
+      "top_factor": "ROAD-263 (Urgency: 51%)",
+      "avg_impact": 3.1,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Buldhana"
+    },
+    "Chandrapur": {
+      "district": "Chandrapur",
+      "backlog_cr": 156.3,
+      "risk": 40.67,
+      "top_factor": "ROAD-163 (Urgency: 48%)",
+      "avg_impact": 3.3,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Chandrapur"
+    },
+    "Dhule": {
+      "district": "Dhule",
+      "backlog_cr": 129.01,
+      "risk": 59.65,
+      "top_factor": "ROAD-115 (Urgency: 55%)",
+      "avg_impact": 5.7,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Dhule"
+    },
+    "Gadchiroli": {
+      "district": "Gadchiroli",
+      "backlog_cr": 251.48,
+      "risk": 50.4,
+      "top_factor": "ROAD-127 (Urgency: 51%)",
+      "avg_impact": 2.5,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Gadchiroli"
+    },
+    "Gondia": {
+      "district": "Gondia",
+      "backlog_cr": 138.26,
+      "risk": 39.8,
+      "top_factor": "ROAD-196 (Urgency: 51%)",
+      "avg_impact": 2.2,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Gondia"
+    },
+    "Hingoli": {
+      "district": "Hingoli",
+      "backlog_cr": 178.84,
+      "risk": 62.41,
+      "top_factor": "ROAD-239 (Urgency: 58%)",
+      "avg_impact": 2.2,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Hingoli"
+    },
+    "Jalgaon": {
+      "district": "Jalgaon",
+      "backlog_cr": 140.95,
+      "risk": 45.84,
+      "top_factor": "ROAD-299 (Urgency: 57%)",
+      "avg_impact": 6.4,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Jalgaon"
+    },
+    "Jalna": {
+      "district": "Jalna",
+      "backlog_cr": 145.8,
+      "risk": 52.37,
+      "top_factor": "ROAD-130 (Urgency: 53%)",
+      "avg_impact": 3.9,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Jalna"
+    },
+    "Kolhapur": {
+      "district": "Kolhapur",
+      "backlog_cr": 149.02,
+      "risk": 39.93,
+      "top_factor": "ROAD-170 (Urgency: 39%)",
+      "avg_impact": 8.0,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Kolhapur"
+    },
+    "Latur": {
+      "district": "Latur",
+      "backlog_cr": 153.89,
+      "risk": 59.57,
+      "top_factor": "ROAD-272 (Urgency: 57%)",
+      "avg_impact": 5.6,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Latur"
+    },
+    "Mumbai Suburban": {
+      "district": "Mumbai Suburban",
+      "backlog_cr": 89.99,
+      "risk": 51.02,
+      "top_factor": "ROAD-172 (Urgency: 72%)",
+      "avg_impact": 60.9,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Mumbai Suburban"
+    },
+    "Nagpur": {
+      "district": "Nagpur",
+      "backlog_cr": 150.13,
+      "risk": 53.73,
+      "top_factor": "ROAD-202 (Urgency: 51%)",
+      "avg_impact": 10.3,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Nagpur"
+    },
+    "Nanded": {
+      "district": "Nanded",
+      "backlog_cr": 156.16,
+      "risk": 47.89,
+      "top_factor": "ROAD-045 (Urgency: 49%)",
+      "avg_impact": 4.2,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Nanded"
+    },
+    "Nandurbar": {
+      "district": "Nandurbar",
+      "backlog_cr": 74.72,
+      "risk": 51.2,
+      "top_factor": "ROAD-233 (Urgency: 51%)",
+      "avg_impact": 2.0,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Nandurbar"
+    },
+    "Nashik": {
+      "district": "Nashik",
+      "backlog_cr": 147.36,
+      "risk": 50.06,
+      "top_factor": "ROAD-036 (Urgency: 51%)",
+      "avg_impact": 14.6,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Nashik"
+    },
+    "Osmanabad": {
+      "district": "Osmanabad",
+      "backlog_cr": 110.49,
+      "risk": 45.9,
+      "top_factor": "ROAD-248 (Urgency: 52%)",
+      "avg_impact": 3.1,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Osmanabad"
+    },
+    "Palghar": {
+      "district": "Palghar",
+      "backlog_cr": 109.08,
+      "risk": 41.11,
+      "top_factor": "ROAD-178 (Urgency: 52%)",
+      "avg_impact": 4.6,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Palghar"
+    },
+    "Parbhani": {
+      "district": "Parbhani",
+      "backlog_cr": 134.16,
+      "risk": 43.3,
+      "top_factor": "ROAD-020 (Urgency: 48%)",
+      "avg_impact": 4.4,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Parbhani"
+    },
+    "Pune": {
+      "district": "Pune",
+      "backlog_cr": 187.06,
+      "risk": 49.4,
+      "top_factor": "ROAD-251 (Urgency: 56%)",
+      "avg_impact": 18.9,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Pune"
+    },
+    "Raigad": {
+      "district": "Raigad",
+      "backlog_cr": 168.29,
+      "risk": 45.13,
+      "top_factor": "ROAD-181 (Urgency: 48%)",
+      "avg_impact": 7.3,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Raigad"
+    },
+    "Ratnagiri": {
+      "district": "Ratnagiri",
+      "backlog_cr": 155.61,
+      "risk": 45.96,
+      "top_factor": "ROAD-121 (Urgency: 48%)",
+      "avg_impact": 2.4,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Ratnagiri"
+    },
+    "Sangli": {
+      "district": "Sangli",
+      "backlog_cr": 81.3,
+      "risk": 44.04,
+      "top_factor": "ROAD-254 (Urgency: 51%)",
+      "avg_impact": 8.9,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Sangli"
+    },
+    "Satara": {
+      "district": "Satara",
+      "backlog_cr": 245.6,
+      "risk": 64.32,
+      "top_factor": "ROAD-184 (Urgency: 61%)",
+      "avg_impact": 5.1,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Satara"
+    },
+    "Sindhudurg": {
+      "district": "Sindhudurg",
+      "backlog_cr": 163.94,
+      "risk": 50.73,
+      "top_factor": "ROAD-185 (Urgency: 45%)",
+      "avg_impact": 2.1,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Sindhudurg"
+    },
+    "Solapur": {
+      "district": "Solapur",
+      "backlog_cr": 220.09,
+      "risk": 38.73,
+      "top_factor": "ROAD-287 (Urgency: 52%)",
+      "avg_impact": 7.9,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Solapur"
+    },
+    "Thane": {
+      "district": "Thane",
+      "backlog_cr": 110.24,
+      "risk": 42.02,
+      "top_factor": "ROAD-157 (Urgency: 54%)",
+      "avg_impact": 22.8,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Thane"
+    },
+    "Wardha": {
+      "district": "Wardha",
+      "backlog_cr": 114.48,
+      "risk": 59.49,
+      "top_factor": "ROAD-124 (Urgency: 54%)",
+      "avg_impact": 4.0,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Wardha"
+    },
+    "Washim": {
+      "district": "Washim",
+      "backlog_cr": 90.28,
+      "risk": 43.61,
+      "top_factor": "ROAD-066 (Urgency: 49%)",
+      "avg_impact": 3.6,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Washim"
+    },
+    "Yavatmal": {
+      "district": "Yavatmal",
+      "backlog_cr": 137.38,
+      "risk": 42.14,
+      "top_factor": "ROAD-290 (Urgency: 48%)",
+      "avg_impact": 2.7,
+      "critical_roads_count": 0,
+      "level": "medium",
+      "last_updated": "2025-11-05T10:32:12.553000+00:00",
+      "id": "Yavatmal"
+    }
+  },
+  "alerts": [
+    {
+      "district": "Pune - Combined Targeted",
+      "raw_score": 0.19138452410697937,
+      "input_features": {
+        "waste_collection_efficiency": 0.0,
+        "patient_inflow_mean": 6000.0,
+        "population_density_per_sqkm": 5000.0,
+        "pm25_roll_1w": 560.0,
+        "pm10_level": 320.0,
+        "pm25_roll_4w": 150.0,
+        "district": "Pune - Combined Targeted",
+        "pm25_roll_2w": 300.0,
+        "avg_household_size": 7.0,
+        "pm25_level": 300.0,
+        "air_quality_index": 280.0,
+        "water_quality_index": 0.0,
+        "patient_inflow_roll_2w": 2200.0,
+        "patient_inflow_roll_1w": 5800.0,
+        "patient_inflow_roll_4w": 800.0
+      },
+      "title": "Outbreak Risk: 19.139999389648438%",
+      "trigger": "Water Quality: 0.0, PM2.5: 300.0",
+      "time": "2025-11-05T09:55:23.126000+00:00",
+      "actions": ["Monitor"],
+      "description": "ETA: 14 Days (model T+14)",
+      "level": "low",
+      "id": "1Bn8g3alrFMmNKGqadSK"
+    },
+    {
+      "district": "Pune - RecentInflow Spike",
+      "raw_score": 0.16948889195919037,
+      "input_features": {
+        "waste_collection_efficiency": 0.0,
+        "patient_inflow_mean": 2500.0,
+        "population_density_per_sqkm": 2000.0,
+        "pm25_roll_1w": 85.0,
+        "pm10_level": 100.0,
+        "pm25_roll_4w": 50.0,
+        "district": "Pune - RecentInflow Spike",
+        "pm25_roll_2w": 60.0,
+        "avg_household_size": 5.0,
+        "pm25_level": 90.0,
+        "air_quality_index": 100.0,
+        "water_quality_index": 0.0,
+        "patient_inflow_roll_2w": 1800.0,
+        "patient_inflow_roll_1w": 6000.0,
+        "patient_inflow_roll_4w": 400.0
+      },
+      "title": "Outbreak Risk: 16.950000762939453%",
+      "trigger": "Water Quality: 0.0, PM2.5: 90.0",
+      "time": "2025-11-05T09:55:14.338000+00:00",
+      "actions": ["Monitor"],
+      "description": "ETA: 14 Days (model T+14)",
+      "level": "low",
+      "id": "Bi8M8iPnudmOtoXlHvKN"
+    },
+    {
+      "district": "Pune - WaterFail PerCapita",
+      "raw_score": 0.028041310608386993,
+      "input_features": {
+        "waste_collection_efficiency": 0.0,
+        "patient_inflow_mean": 4000.0,
+        "population_density_per_sqkm": 1000.0,
+        "pm25_roll_1w": 110.0,
+        "pm10_level": 130.0,
+        "pm25_roll_4w": 70.0,
+        "district": "Pune - WaterFail PerCapita",
+        "pm25_roll_2w": 90.0,
+        "avg_household_size": 6.0,
+        "pm25_level": 120.0,
+        "air_quality_index": 130.0,
+        "water_quality_index": 0.0,
+        "patient_inflow_roll_2w": 1200.0,
+        "patient_inflow_roll_1w": 3800.0,
+        "patient_inflow_roll_4w": 300.0
+      },
+      "title": "Outbreak Risk: 2.799999952316284%",
+      "trigger": "Water Quality: 0.0, PM2.5: 120.0",
+      "time": "2025-11-05T09:54:57.591000+00:00",
+      "actions": ["Monitor"],
+      "description": "ETA: 14 Days (model T+14)",
+      "level": "low",
+      "id": "hErUKSawyNFVWR1ko7XA"
+    },
+    {
+      "district": "Pune - Water/Waste Fail",
+      "raw_score": 0.28474298119544983,
+      "input_features": {
+        "waste_collection_efficiency": 0.0,
+        "patient_inflow_mean": 1500.0,
+        "population_density_per_sqkm": 20000.0,
+        "pm25_roll_1w": 140.0,
+        "pm10_level": 120.0,
+        "pm25_roll_4w": 120.0,
+        "district": "Pune - Water/Waste Fail",
+        "pm25_roll_2w": 130.0,
+        "avg_household_size": 6.0,
+        "pm25_level": 100.0,
+        "air_quality_index": 110.0,
+        "water_quality_index": 0.5,
+        "patient_inflow_roll_2w": 1200.0,
+        "patient_inflow_roll_1w": 1400.0,
+        "patient_inflow_roll_4w": 900.0
+      },
+      "title": "Outbreak Risk: 28.469999313354492%",
+      "trigger": "Water Quality: 0.5, PM2.5: 100.0",
+      "time": "2025-11-05T09:50:28.898000+00:00",
+      "actions": ["Monitor"],
+      "description": "ETA: 14 Days (model T+14)",
+      "level": "low",
+      "id": "h4AXESOptYrZalE61RkS"
+    },
+    {
+      "district": "Pune - Combined Extreme",
+      "raw_score": 0.19138452410697937,
+      "input_features": {
+        "waste_collection_efficiency": 0.01,
+        "patient_inflow_mean": 8000.0,
+        "population_density_per_sqkm": 8000.0,
+        "pm25_roll_1w": 680.0,
+        "pm10_level": 650.0,
+        "pm25_roll_4w": 400.0,
+        "district": "Pune - Combined Extreme",
+        "pm25_roll_2w": 600.0,
+        "avg_household_size": 7.0,
+        "pm25_level": 700.0,
+        "air_quality_index": 450.0,
+        "water_quality_index": 1.0,
+        "patient_inflow_roll_2w": 3000.0,
+        "patient_inflow_roll_1w": 7500.0,
+        "patient_inflow_roll_4w": 1000.0
+      },
+      "title": "Outbreak Risk: 19.139999389648438%",
+      "trigger": "Water Quality: 1.0, PM2.5: 700.0",
+      "time": "2025-11-05T09:50:14.620000+00:00",
+      "actions": ["Monitor"],
+      "description": "ETA: 14 Days (model T+14)",
+      "level": "low",
+      "id": "JlHe0rZIuA5aBKpXOHa9"
+    }
+  ],
+  "departments": [
+    {
+      "district": "Ahmednagar",
+      "metrics": [0.1, 42.7, 4.3, 0.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Ahmednagar (Water Supply Issue)"
+      }
+    },
+    {
+      "district": "Akola",
+      "metrics": [0.0, 166.7, 0.0, 0.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Akola (Health Services)"
+      }
+    },
+    {
+      "district": "Amravati",
+      "metrics": [0.0, 166.7, 0.0, 0.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Amravati (Property Tax)"
+      }
+    },
+    {
+      "district": "Aurangabad",
+      "metrics": [0.0, 200.0, 0.0, 50.0],
+      "pending": 2,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Aurangabad (Health Services)"
+      }
+    },
+    {
+      "district": "Beed",
+      "metrics": [0.0, 200.0, 0.0, 0.0],
+      "pending": 2,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Beed (Electricity Outage)"
+      }
+    },
+    {
+      "district": "Buldhana",
+      "metrics": [0.0, 166.7, 0.0, 0.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Buldhana (Water Supply Issue)"
+      }
+    },
+    {
+      "district": "Chandrapur",
+      "metrics": [0.1, 42.7, 4.4, 0.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Chandrapur (Waste Management)"
+      }
+    },
+    {
+      "district": "Dhule",
+      "metrics": [0.0, 166.7, 0.0, 25.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Dhule (Property Tax)"
+      }
+    },
+    {
+      "district": "Gadchiroli",
+      "metrics": [0.1, 14.0, 8.0, 0.0],
+      "pending": 2,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Gadchiroli (Property Tax)"
+      }
+    },
+    {
+      "district": "Gondia",
+      "metrics": [0.1, 14.0, 7.7, 0.0],
+      "pending": 2,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Gondia (Water Supply Issue)"
+      }
+    },
+    {
+      "district": "Hingoli",
+      "metrics": [0.0, 200.0, 0.0, 100.0],
+      "pending": 2,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Hingoli (Road Repair)"
+      }
+    },
+    {
+      "district": "Jalgaon",
+      "metrics": [0.3, 100.0, 4.7, 50.0],
+      "pending": 1,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Jalgaon (Road Repair)"
+      }
+    },
+    {
+      "district": "Jalna",
+      "metrics": [0.0, 200.0, 0.0, 0.0],
+      "pending": 2,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Jalna (Waste Management)"
+      }
+    },
+    {
+      "district": "Kolhapur",
+      "metrics": [0.1, 135.7, 3.5, 0.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Kolhapur (Public Safety)"
+      }
+    },
+    {
+      "district": "Latur",
+      "metrics": [0.1, 100.0, 4.5, 0.0],
+      "pending": 1,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Latur (Electricity Outage)"
+      }
+    },
+    {
+      "district": "Mumbai Suburban",
+      "metrics": [0.0, 100.0, 0.0, 33.3],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Mumbai Suburban (Property Tax)"
+      }
+    },
+    {
+      "district": "Nagpur",
+      "metrics": [0.2, 100.0, 2.9, 0.0],
+      "pending": 2,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Nagpur (Electricity Outage)"
+      }
+    },
+    {
+      "district": "Nanded",
+      "metrics": [0.0, 166.7, 0.0, 50.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Nanded (Waste Management)"
+      }
+    },
+    {
+      "district": "Nashik",
+      "metrics": [0.1, 53.5, 3.0, 0.0],
+      "pending": 2,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Nashik (Waste Management)"
+      }
+    },
+    {
+      "district": "Osmanabad",
+      "metrics": [0.0, 166.7, 0.0, 0.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Osmanabad (Public Safety)"
+      }
+    },
+    {
+      "district": "Palghar",
+      "metrics": [0.1, 0.0, 9.0, 0.0],
+      "pending": 0,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Palghar (Electricity Outage)"
+      }
+    },
+    {
+      "district": "Parbhani",
+      "metrics": [0.1, 200.0, 4.7, 0.0],
+      "pending": 2,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Parbhani (Health Services)"
+      }
+    },
+    {
+      "district": "Pune",
+      "metrics": [0.0, 100.0, 0.0, 0.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Pune (Road Repair)"
+      }
+    },
+    {
+      "district": "Raigad",
+      "metrics": [0.2, 135.3, 3.5, 0.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Raigad (Public Safety)"
+      }
+    },
+    {
+      "district": "Ratnagiri",
+      "metrics": [0.2, 135.0, 4.0, 0.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Ratnagiri (Health Services)"
+      }
+    },
+    {
+      "district": "Sangli",
+      "metrics": [0.0, 200.0, 0.0, 50.0],
+      "pending": 2,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Sangli (Health Services)"
+      }
+    },
+    {
+      "district": "Satara",
+      "metrics": [0.2, 135.0, 4.2, 25.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Satara (Property Tax)"
+      }
+    },
+    {
+      "district": "Sindhudurg",
+      "metrics": [0.2, 200.0, 4.2, 25.0],
+      "pending": 2,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Sindhudurg (Property Tax)"
+      }
+    },
+    {
+      "district": "Solapur",
+      "metrics": [0.2, 135.3, 3.9, 0.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Solapur (Health Services)"
+      }
+    },
+    {
+      "district": "Thane",
+      "metrics": [0.0, 166.7, 0.0, 50.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Thane (Public Safety)"
+      }
+    },
+    {
+      "district": "Wardha",
+      "metrics": [0.1, 100.0, 4.7, 50.0],
+      "pending": 1,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Wardha (Electricity Outage)"
+      }
+    },
+    {
+      "district": "Washim",
+      "metrics": [0.0, 200.0, 0.0, 0.0],
+      "pending": 2,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Washim (Public Safety)"
+      }
+    },
+    {
+      "district": "Yavatmal",
+      "metrics": [0.0, 166.7, 0.0, 0.0],
+      "pending": 3,
+      "alert": {
+        "title": "Citizen Services",
+        "description": "Stable demand in Yavatmal (Waste Management)"
+      }
+    }
+  ],
+  "pipelines": {
+    "health": {
+      "label": "Health",
+      "pipeline": "realtime-health-scorer",
+      "pattern": "Real-time API (Endpoint)",
+      "destination": { "type": "firestore", "collection": "outbreak_alerts" },
+      "dashboardComponent": "Live Alerts Feed",
+      "data": [
+        {
+          "district": "Pune - Combined Targeted",
+          "raw_score": 0.19138452410697937,
+          "input_features": {
+            "waste_collection_efficiency": 0.0,
+            "patient_inflow_mean": 6000.0,
+            "population_density_per_sqkm": 5000.0,
+            "pm25_roll_1w": 560.0,
+            "pm10_level": 320.0,
+            "pm25_roll_4w": 150.0,
+            "district": "Pune - Combined Targeted",
+            "pm25_roll_2w": 300.0,
+            "avg_household_size": 7.0,
+            "pm25_level": 300.0,
+            "air_quality_index": 280.0,
+            "water_quality_index": 0.0,
+            "patient_inflow_roll_2w": 2200.0,
+            "patient_inflow_roll_1w": 5800.0,
+            "patient_inflow_roll_4w": 800.0
+          },
+          "title": "Outbreak Risk: 19.139999389648438%",
+          "trigger": "Water Quality: 0.0, PM2.5: 300.0",
+          "time": "2025-11-05T09:55:23.126000+00:00",
+          "actions": ["Monitor"],
+          "description": "ETA: 14 Days (model T+14)",
+          "level": "low",
+          "id": "1Bn8g3alrFMmNKGqadSK"
+        },
+        {
+          "district": "Pune - RecentInflow Spike",
+          "raw_score": 0.16948889195919037,
+          "input_features": {
+            "waste_collection_efficiency": 0.0,
+            "patient_inflow_mean": 2500.0,
+            "population_density_per_sqkm": 2000.0,
+            "pm25_roll_1w": 85.0,
+            "pm10_level": 100.0,
+            "pm25_roll_4w": 50.0,
+            "district": "Pune - RecentInflow Spike",
+            "pm25_roll_2w": 60.0,
+            "avg_household_size": 5.0,
+            "pm25_level": 90.0,
+            "air_quality_index": 100.0,
+            "water_quality_index": 0.0,
+            "patient_inflow_roll_2w": 1800.0,
+            "patient_inflow_roll_1w": 6000.0,
+            "patient_inflow_roll_4w": 400.0
+          },
+          "title": "Outbreak Risk: 16.950000762939453%",
+          "trigger": "Water Quality: 0.0, PM2.5: 90.0",
+          "time": "2025-11-05T09:55:14.338000+00:00",
+          "actions": ["Monitor"],
+          "description": "ETA: 14 Days (model T+14)",
+          "level": "low",
+          "id": "Bi8M8iPnudmOtoXlHvKN"
+        },
+        {
+          "district": "Pune - WaterFail PerCapita",
+          "raw_score": 0.028041310608386993,
+          "input_features": {
+            "waste_collection_efficiency": 0.0,
+            "patient_inflow_mean": 4000.0,
+            "population_density_per_sqkm": 1000.0,
+            "pm25_roll_1w": 110.0,
+            "pm10_level": 130.0,
+            "pm25_roll_4w": 70.0,
+            "district": "Pune - WaterFail PerCapita",
+            "pm25_roll_2w": 90.0,
+            "avg_household_size": 6.0,
+            "pm25_level": 120.0,
+            "air_quality_index": 130.0,
+            "water_quality_index": 0.0,
+            "patient_inflow_roll_2w": 1200.0,
+            "patient_inflow_roll_1w": 3800.0,
+            "patient_inflow_roll_4w": 300.0
+          },
+          "title": "Outbreak Risk: 2.799999952316284%",
+          "trigger": "Water Quality: 0.0, PM2.5: 120.0",
+          "time": "2025-11-05T09:54:57.591000+00:00",
+          "actions": ["Monitor"],
+          "description": "ETA: 14 Days (model T+14)",
+          "level": "low",
+          "id": "hErUKSawyNFVWR1ko7XA"
+        },
+        {
+          "district": "Pune - Water/Waste Fail",
+          "raw_score": 0.28474298119544983,
+          "input_features": {
+            "waste_collection_efficiency": 0.0,
+            "patient_inflow_mean": 1500.0,
+            "population_density_per_sqkm": 20000.0,
+            "pm25_roll_1w": 140.0,
+            "pm10_level": 120.0,
+            "pm25_roll_4w": 120.0,
+            "district": "Pune - Water/Waste Fail",
+            "pm25_roll_2w": 130.0,
+            "avg_household_size": 6.0,
+            "pm25_level": 100.0,
+            "air_quality_index": 110.0,
+            "water_quality_index": 0.5,
+            "patient_inflow_roll_2w": 1200.0,
+            "patient_inflow_roll_1w": 1400.0,
+            "patient_inflow_roll_4w": 900.0
+          },
+          "title": "Outbreak Risk: 28.469999313354492%",
+          "trigger": "Water Quality: 0.5, PM2.5: 100.0",
+          "time": "2025-11-05T09:50:28.898000+00:00",
+          "actions": ["Monitor"],
+          "description": "ETA: 14 Days (model T+14)",
+          "level": "low",
+          "id": "h4AXESOptYrZalE61RkS"
+        },
+        {
+          "district": "Pune - Combined Extreme",
+          "raw_score": 0.19138452410697937,
+          "input_features": {
+            "waste_collection_efficiency": 0.01,
+            "patient_inflow_mean": 8000.0,
+            "population_density_per_sqkm": 8000.0,
+            "pm25_roll_1w": 680.0,
+            "pm10_level": 650.0,
+            "pm25_roll_4w": 400.0,
+            "district": "Pune - Combined Extreme",
+            "pm25_roll_2w": 600.0,
+            "avg_household_size": 7.0,
+            "pm25_level": 700.0,
+            "air_quality_index": 450.0,
+            "water_quality_index": 1.0,
+            "patient_inflow_roll_2w": 3000.0,
+            "patient_inflow_roll_1w": 7500.0,
+            "patient_inflow_roll_4w": 1000.0
+          },
+          "title": "Outbreak Risk: 19.139999389648438%",
+          "trigger": "Water Quality: 1.0, PM2.5: 700.0",
+          "time": "2025-11-05T09:50:14.620000+00:00",
+          "actions": ["Monitor"],
+          "description": "ETA: 14 Days (model T+14)",
+          "level": "low",
+          "id": "JlHe0rZIuA5aBKpXOHa9"
+        }
+      ],
+      "status": "ok"
+    },
+    "infrastructure": {
+      "label": "Infrastructure",
+      "pipeline": "batch-infra-scorer",
+      "pattern": "Batch Job (to DB)",
+      "destination": { "type": "firestore", "collection": "infra_risk_scores" },
+      "dashboardComponent": "Infrastructure Dept. View",
+      "data": {
+        "Ahmednagar": {
+          "district": "Ahmednagar",
+          "backlog_cr": 139.92,
+          "risk": 46.04,
+          "top_factor": "ROAD-010 (Urgency: 50%)",
+          "avg_impact": 5.1,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Ahmednagar"
+        },
+        "Akola": {
+          "district": "Akola",
+          "backlog_cr": 86.14,
+          "risk": 46.98,
+          "top_factor": "ROAD-081 (Urgency: 48%)",
+          "avg_impact": 4.8,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Akola"
+        },
+        "Amravati": {
+          "district": "Amravati",
+          "backlog_cr": 112.21,
+          "risk": 38.27,
+          "top_factor": "ROAD-014 (Urgency: 48%)",
+          "avg_impact": 7.0,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Amravati"
+        },
+        "Aurangabad": {
+          "district": "Aurangabad",
+          "backlog_cr": 90.66,
+          "risk": 57.88,
+          "top_factor": "ROAD-039 (Urgency: 48%)",
+          "avg_impact": 7.2,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Aurangabad"
+        },
+        "Beed": {
+          "district": "Beed",
+          "backlog_cr": 98.84,
+          "risk": 46.05,
+          "top_factor": "ROAD-060 (Urgency: 51%)",
+          "avg_impact": 4.3,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Beed"
+        },
+        "Bhandara": {
+          "district": "Bhandara",
+          "backlog_cr": 61.33,
+          "risk": 42.24,
+          "top_factor": "ROAD-292 (Urgency: 39%)",
+          "avg_impact": 4.1,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Bhandara"
+        },
+        "Buldhana": {
+          "district": "Buldhana",
+          "backlog_cr": 131.64,
+          "risk": 50.78,
+          "top_factor": "ROAD-263 (Urgency: 51%)",
+          "avg_impact": 3.1,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Buldhana"
+        },
+        "Chandrapur": {
+          "district": "Chandrapur",
+          "backlog_cr": 156.3,
+          "risk": 40.67,
+          "top_factor": "ROAD-163 (Urgency: 48%)",
+          "avg_impact": 3.3,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Chandrapur"
+        },
+        "Dhule": {
+          "district": "Dhule",
+          "backlog_cr": 129.01,
+          "risk": 59.65,
+          "top_factor": "ROAD-115 (Urgency: 55%)",
+          "avg_impact": 5.7,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Dhule"
+        },
+        "Gadchiroli": {
+          "district": "Gadchiroli",
+          "backlog_cr": 251.48,
+          "risk": 50.4,
+          "top_factor": "ROAD-127 (Urgency: 51%)",
+          "avg_impact": 2.5,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Gadchiroli"
+        },
+        "Gondia": {
+          "district": "Gondia",
+          "backlog_cr": 138.26,
+          "risk": 39.8,
+          "top_factor": "ROAD-196 (Urgency: 51%)",
+          "avg_impact": 2.2,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Gondia"
+        },
+        "Hingoli": {
+          "district": "Hingoli",
+          "backlog_cr": 178.84,
+          "risk": 62.41,
+          "top_factor": "ROAD-239 (Urgency: 58%)",
+          "avg_impact": 2.2,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Hingoli"
+        },
+        "Jalgaon": {
+          "district": "Jalgaon",
+          "backlog_cr": 140.95,
+          "risk": 45.84,
+          "top_factor": "ROAD-299 (Urgency: 57%)",
+          "avg_impact": 6.4,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Jalgaon"
+        },
+        "Jalna": {
+          "district": "Jalna",
+          "backlog_cr": 145.8,
+          "risk": 52.37,
+          "top_factor": "ROAD-130 (Urgency: 53%)",
+          "avg_impact": 3.9,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Jalna"
+        },
+        "Kolhapur": {
+          "district": "Kolhapur",
+          "backlog_cr": 149.02,
+          "risk": 39.93,
+          "top_factor": "ROAD-170 (Urgency: 39%)",
+          "avg_impact": 8.0,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Kolhapur"
+        },
+        "Latur": {
+          "district": "Latur",
+          "backlog_cr": 153.89,
+          "risk": 59.57,
+          "top_factor": "ROAD-272 (Urgency: 57%)",
+          "avg_impact": 5.6,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Latur"
+        },
+        "Mumbai Suburban": {
+          "district": "Mumbai Suburban",
+          "backlog_cr": 89.99,
+          "risk": 51.02,
+          "top_factor": "ROAD-172 (Urgency: 72%)",
+          "avg_impact": 60.9,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Mumbai Suburban"
+        },
+        "Nagpur": {
+          "district": "Nagpur",
+          "backlog_cr": 150.13,
+          "risk": 53.73,
+          "top_factor": "ROAD-202 (Urgency: 51%)",
+          "avg_impact": 10.3,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Nagpur"
+        },
+        "Nanded": {
+          "district": "Nanded",
+          "backlog_cr": 156.16,
+          "risk": 47.89,
+          "top_factor": "ROAD-045 (Urgency: 49%)",
+          "avg_impact": 4.2,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Nanded"
+        },
+        "Nandurbar": {
+          "district": "Nandurbar",
+          "backlog_cr": 74.72,
+          "risk": 51.2,
+          "top_factor": "ROAD-233 (Urgency: 51%)",
+          "avg_impact": 2.0,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Nandurbar"
+        },
+        "Nashik": {
+          "district": "Nashik",
+          "backlog_cr": 147.36,
+          "risk": 50.06,
+          "top_factor": "ROAD-036 (Urgency: 51%)",
+          "avg_impact": 14.6,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Nashik"
+        },
+        "Osmanabad": {
+          "district": "Osmanabad",
+          "backlog_cr": 110.49,
+          "risk": 45.9,
+          "top_factor": "ROAD-248 (Urgency: 52%)",
+          "avg_impact": 3.1,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Osmanabad"
+        },
+        "Palghar": {
+          "district": "Palghar",
+          "backlog_cr": 109.08,
+          "risk": 41.11,
+          "top_factor": "ROAD-178 (Urgency: 52%)",
+          "avg_impact": 4.6,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Palghar"
+        },
+        "Parbhani": {
+          "district": "Parbhani",
+          "backlog_cr": 134.16,
+          "risk": 43.3,
+          "top_factor": "ROAD-020 (Urgency: 48%)",
+          "avg_impact": 4.4,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Parbhani"
+        },
+        "Pune": {
+          "district": "Pune",
+          "backlog_cr": 187.06,
+          "risk": 49.4,
+          "top_factor": "ROAD-251 (Urgency: 56%)",
+          "avg_impact": 18.9,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Pune"
+        },
+        "Raigad": {
+          "district": "Raigad",
+          "backlog_cr": 168.29,
+          "risk": 45.13,
+          "top_factor": "ROAD-181 (Urgency: 48%)",
+          "avg_impact": 7.3,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Raigad"
+        },
+        "Ratnagiri": {
+          "district": "Ratnagiri",
+          "backlog_cr": 155.61,
+          "risk": 45.96,
+          "top_factor": "ROAD-121 (Urgency: 48%)",
+          "avg_impact": 2.4,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Ratnagiri"
+        },
+        "Sangli": {
+          "district": "Sangli",
+          "backlog_cr": 81.3,
+          "risk": 44.04,
+          "top_factor": "ROAD-254 (Urgency: 51%)",
+          "avg_impact": 8.9,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Sangli"
+        },
+        "Satara": {
+          "district": "Satara",
+          "backlog_cr": 245.6,
+          "risk": 64.32,
+          "top_factor": "ROAD-184 (Urgency: 61%)",
+          "avg_impact": 5.1,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Satara"
+        },
+        "Sindhudurg": {
+          "district": "Sindhudurg",
+          "backlog_cr": 163.94,
+          "risk": 50.73,
+          "top_factor": "ROAD-185 (Urgency: 45%)",
+          "avg_impact": 2.1,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Sindhudurg"
+        },
+        "Solapur": {
+          "district": "Solapur",
+          "backlog_cr": 220.09,
+          "risk": 38.73,
+          "top_factor": "ROAD-287 (Urgency: 52%)",
+          "avg_impact": 7.9,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Solapur"
+        },
+        "Thane": {
+          "district": "Thane",
+          "backlog_cr": 110.24,
+          "risk": 42.02,
+          "top_factor": "ROAD-157 (Urgency: 54%)",
+          "avg_impact": 22.8,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Thane"
+        },
+        "Wardha": {
+          "district": "Wardha",
+          "backlog_cr": 114.48,
+          "risk": 59.49,
+          "top_factor": "ROAD-124 (Urgency: 54%)",
+          "avg_impact": 4.0,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Wardha"
+        },
+        "Washim": {
+          "district": "Washim",
+          "backlog_cr": 90.28,
+          "risk": 43.61,
+          "top_factor": "ROAD-066 (Urgency: 49%)",
+          "avg_impact": 3.6,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Washim"
+        },
+        "Yavatmal": {
+          "district": "Yavatmal",
+          "backlog_cr": 137.38,
+          "risk": 42.14,
+          "top_factor": "ROAD-290 (Urgency: 48%)",
+          "avg_impact": 2.7,
+          "critical_roads_count": 0,
+          "level": "medium",
+          "last_updated": "2025-11-05T10:32:12.553000+00:00",
+          "id": "Yavatmal"
+        }
+      },
+      "status": "ok"
+    },
+    "publicSafety": {
+      "label": "Public Safety",
+      "pipeline": "public-safety-scorer",
+      "pattern": "Batch Job (to File)",
+      "destination": {
+        "type": "gcs",
+        "bucket": "safety-dashboard-bucket",
+        "blob": "safety_dashboard_metrics.json"
+      },
+      "dashboardComponent": "Public Safety Dept. View",
+      "data": {
+        "dashboard": {
+          "Ahmednagar": {
+            "metrics": [28.1, 53.3, 71.9],
+            "hotspots": 2,
+            "top_factor_line": "PS-010 (Risk: 29%)",
+            "alert": {
+              "title": "Safety Hotspots: 2",
+              "description": "Avg Risk: 28 | Response Eff.: 53% | Resolution: 72%"
+            }
+          },
+          "Akola": {
+            "metrics": [37.5, 22.2, 63.5],
+            "hotspots": 0,
+            "top_factor_line": "PS-015 (Risk: 40%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 37 | Response Eff.: 22% | Resolution: 64%"
+            }
+          },
+          "Amravati": {
+            "metrics": [28.9, 33.3, 66.0],
+            "hotspots": 0,
+            "top_factor_line": "PS-014 (Risk: 30%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 29 | Response Eff.: 33% | Resolution: 66%"
+            }
+          },
+          "Aurangabad": {
+            "metrics": [26.6, 56.7, 72.4],
+            "hotspots": 2,
+            "top_factor_line": "PS-006 (Risk: 27%)",
+            "alert": {
+              "title": "Safety Hotspots: 2",
+              "description": "Avg Risk: 27 | Response Eff.: 57% | Resolution: 72%"
+            }
+          },
+          "Beed": {
+            "metrics": [32.5, 37.8, 68.5],
+            "hotspots": 0,
+            "top_factor_line": "PS-027 (Risk: 32%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 32 | Response Eff.: 38% | Resolution: 68%"
+            }
+          },
+          "Buldhana": {
+            "metrics": [15.5, 20.0, 63.5],
+            "hotspots": 0,
+            "top_factor_line": "PS-024 (Risk: 16%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 16 | Response Eff.: 20% | Resolution: 64%"
+            }
+          },
+          "Chandrapur": {
+            "metrics": [25.0, 33.3, 68.5],
+            "hotspots": 0,
+            "top_factor_line": "PS-017 (Risk: 26%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 25 | Response Eff.: 33% | Resolution: 68%"
+            }
+          },
+          "Dhule": {
+            "metrics": [27.4, 48.9, 70.5],
+            "hotspots": 2,
+            "top_factor_line": "PS-016 (Risk: 29%)",
+            "alert": {
+              "title": "Safety Hotspots: 2",
+              "description": "Avg Risk: 27 | Response Eff.: 49% | Resolution: 70%"
+            }
+          },
+          "Gadchiroli": {
+            "metrics": [4.9, 0.0, 55.0],
+            "hotspots": 0,
+            "top_factor_line": "PS-028 (Risk: 5%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 5 | Response Eff.: 0% | Resolution: 55%"
+            }
+          },
+          "Gondia": {
+            "metrics": [17.2, 17.8, 63.0],
+            "hotspots": 0,
+            "top_factor_line": "PS-029 (Risk: 17%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 17 | Response Eff.: 18% | Resolution: 63%"
+            }
+          },
+          "Hingoli": {
+            "metrics": [15.3, 4.4, 61.5],
+            "hotspots": 0,
+            "top_factor_line": "PS-030 (Risk: 15%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 15 | Response Eff.: 4% | Resolution: 62%"
+            }
+          },
+          "Jalgaon": {
+            "metrics": [43.8, 46.7, 69.5],
+            "hotspots": 1,
+            "top_factor_line": "PS-011 (Risk: 46%)",
+            "alert": {
+              "title": "Safety Hotspots: 1",
+              "description": "Avg Risk: 44 | Response Eff.: 47% | Resolution: 70%"
+            }
+          },
+          "Jalna": {
+            "metrics": [14.4, 26.7, 66.5],
+            "hotspots": 0,
+            "top_factor_line": "PS-031 (Risk: 14%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 14 | Response Eff.: 27% | Resolution: 66%"
+            }
+          },
+          "Kolhapur": {
+            "metrics": [26.9, 42.7, 68.8],
+            "hotspots": 1,
+            "top_factor_line": "PS-007 (Risk: 28%)",
+            "alert": {
+              "title": "Safety Hotspots: 1",
+              "description": "Avg Risk: 27 | Response Eff.: 43% | Resolution: 69%"
+            }
+          },
+          "Latur": {
+            "metrics": [63.1, 44.4, 72.8],
+            "hotspots": 2,
+            "top_factor_line": "PS-018 (Risk: 66%)",
+            "alert": {
+              "title": "Safety Hotspots: 2",
+              "description": "Avg Risk: 63 | Response Eff.: 44% | Resolution: 73%"
+            }
+          },
+          "Mumbai City": {
+            "metrics": [25.0, 100.0, 88.0],
+            "hotspots": 1,
+            "top_factor_line": "PS-034 (Risk: 25%)",
+            "alert": {
+              "title": "Safety Hotspots: 1",
+              "description": "Avg Risk: 25 | Response Eff.: 100% | Resolution: 88%"
+            }
+          },
+          "Mumbai Suburban": {
+            "metrics": [27.2, 92.4, 84.0],
+            "hotspots": 2,
+            "top_factor_line": "PS-002 (Risk: 28%)",
+            "alert": {
+              "title": "Safety Hotspots: 2",
+              "description": "Avg Risk: 27 | Response Eff.: 92% | Resolution: 84%"
+            }
+          },
+          "Nagpur": {
+            "metrics": [31.9, 64.4, 76.2],
+            "hotspots": 2,
+            "top_factor_line": "PS-004 (Risk: 33%)",
+            "alert": {
+              "title": "Safety Hotspots: 2",
+              "description": "Avg Risk: 32 | Response Eff.: 64% | Resolution: 76%"
+            }
+          },
+          "Nanded": {
+            "metrics": [41.9, 25.6, 64.8],
+            "hotspots": 0,
+            "top_factor_line": "PS-012 (Risk: 44%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 42 | Response Eff.: 26% | Resolution: 65%"
+            }
+          },
+          "Nashik": {
+            "metrics": [17.9, 47.6, 70.8],
+            "hotspots": 2,
+            "top_factor_line": "PS-003 (Risk: 19%)",
+            "alert": {
+              "title": "Safety Hotspots: 2",
+              "description": "Avg Risk: 18 | Response Eff.: 48% | Resolution: 71%"
+            }
+          },
+          "Osmanabad": {
+            "metrics": [20.1, 26.7, 65.0],
+            "hotspots": 0,
+            "top_factor_line": "PS-019 (Risk: 24%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 20 | Response Eff.: 27% | Resolution: 65%"
+            }
+          },
+          "Palghar": {
+            "metrics": [22.3, 22.2, 64.5],
+            "hotspots": 0,
+            "top_factor_line": "PS-032 (Risk: 22%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 22 | Response Eff.: 22% | Resolution: 64%"
+            }
+          },
+          "Parbhani": {
+            "metrics": [20.2, 44.4, 70.5],
+            "hotspots": 1,
+            "top_factor_line": "PS-020 (Risk: 20%)",
+            "alert": {
+              "title": "Safety Hotspots: 1",
+              "description": "Avg Risk: 20 | Response Eff.: 44% | Resolution: 70%"
+            }
+          },
+          "Pune": {
+            "metrics": [56.6, 75.8, 77.8],
+            "hotspots": 2,
+            "top_factor_line": "PS-001 (Risk: 59%)",
+            "alert": {
+              "title": "Safety Hotspots: 2",
+              "description": "Avg Risk: 57 | Response Eff.: 76% | Resolution: 78%"
+            }
+          },
+          "Raigad": {
+            "metrics": [11.6, 15.6, 62.0],
+            "hotspots": 0,
+            "top_factor_line": "PS-021 (Risk: 12%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 12 | Response Eff.: 16% | Resolution: 62%"
+            }
+          },
+          "Ratnagiri": {
+            "metrics": [15.4, 24.4, 65.0],
+            "hotspots": 0,
+            "top_factor_line": "PS-022 (Risk: 15%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 15 | Response Eff.: 24% | Resolution: 65%"
+            }
+          },
+          "Sangli": {
+            "metrics": [18.1, 53.3, 73.8],
+            "hotspots": 2,
+            "top_factor_line": "PS-013 (Risk: 19%)",
+            "alert": {
+              "title": "Safety Hotspots: 2",
+              "description": "Avg Risk: 18 | Response Eff.: 53% | Resolution: 74%"
+            }
+          },
+          "Satara": {
+            "metrics": [12.1, 36.2, 67.2],
+            "hotspots": 0,
+            "top_factor_line": "PS-009 (Risk: 13%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 12 | Response Eff.: 36% | Resolution: 67%"
+            }
+          },
+          "Sindhudurg": {
+            "metrics": [10.6, 8.9, 60.0],
+            "hotspots": 0,
+            "top_factor_line": "PS-023 (Risk: 11%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 11 | Response Eff.: 9% | Resolution: 60%"
+            }
+          },
+          "Solapur": {
+            "metrics": [40.6, 67.6, 76.5],
+            "hotspots": 2,
+            "top_factor_line": "PS-008 (Risk: 42%)",
+            "alert": {
+              "title": "Safety Hotspots: 2",
+              "description": "Avg Risk: 41 | Response Eff.: 68% | Resolution: 76%"
+            }
+          },
+          "Thane": {
+            "metrics": [61.0, 82.2, 80.4],
+            "hotspots": 2,
+            "top_factor_line": "PS-005 (Risk: 63%)",
+            "alert": {
+              "title": "Safety Hotspots: 2",
+              "description": "Avg Risk: 61 | Response Eff.: 82% | Resolution: 80%"
+            }
+          },
+          "Wardha": {
+            "metrics": [14.7, 33.3, 67.5],
+            "hotspots": 0,
+            "top_factor_line": "PS-025 (Risk: 15%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 15 | Response Eff.: 33% | Resolution: 68%"
+            }
+          },
+          "Washim": {
+            "metrics": [18.8, 11.1, 62.5],
+            "hotspots": 0,
+            "top_factor_line": "PS-033 (Risk: 19%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 19 | Response Eff.: 11% | Resolution: 62%"
+            }
+          },
+          "Yavatmal": {
+            "metrics": [25.4, 13.3, 61.0],
+            "hotspots": 0,
+            "top_factor_line": "PS-026 (Risk: 25%)",
+            "alert": {
+              "title": "Safety Hotspots: 0",
+              "description": "Avg Risk: 25 | Response Eff.: 13% | Resolution: 61%"
+            }
+          }
+        },
+        "scores": [
+          {
+            "station_id": "PS-028",
+            "district": "Gadchiroli",
+            "complaints_logged": 55,
+            "crime_count_total": 30,
+            "per_capita_crime": 1.08458e-5,
+            "priority_cases_count": 2.0,
+            "crime_risk_0_100": 4.8876228848,
+            "response_efficiency_pct": 0.0,
+            "resolution_rate_pct": 55.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-030",
+            "district": "Hingoli",
+            "complaints_logged": 60,
+            "crime_count_total": 31,
+            "per_capita_crime": 5.2737e-6,
+            "priority_cases_count": 3.0,
+            "crime_risk_0_100": 15.3419855175,
+            "response_efficiency_pct": 4.4444444444,
+            "resolution_rate_pct": 61.5,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-023",
+            "district": "Sindhudurg",
+            "complaints_logged": 65,
+            "crime_count_total": 32,
+            "per_capita_crime": 1.44388e-5,
+            "priority_cases_count": 3.0,
+            "crime_risk_0_100": 10.6228320664,
+            "response_efficiency_pct": 8.8888888889,
+            "resolution_rate_pct": 60.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-033",
+            "district": "Washim",
+            "complaints_logged": 65,
+            "crime_count_total": 31,
+            "per_capita_crime": 5.5813e-6,
+            "priority_cases_count": 3.0,
+            "crime_risk_0_100": 18.7559206473,
+            "response_efficiency_pct": 11.1111111111,
+            "resolution_rate_pct": 62.5,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-021",
+            "district": "Raigad",
+            "complaints_logged": 70,
+            "crime_count_total": 37,
+            "per_capita_crime": 6.8664e-6,
+            "priority_cases_count": 4.0,
+            "crime_risk_0_100": 11.6037701544,
+            "response_efficiency_pct": 15.5555555556,
+            "resolution_rate_pct": 62.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-026",
+            "district": "Yavatmal",
+            "complaints_logged": 70,
+            "crime_count_total": 38,
+            "per_capita_crime": 8.0665e-6,
+            "priority_cases_count": 4.0,
+            "crime_risk_0_100": 25.4318274783,
+            "response_efficiency_pct": 13.3333333333,
+            "resolution_rate_pct": 61.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-029",
+            "district": "Gondia",
+            "complaints_logged": 70,
+            "crime_count_total": 33,
+            "per_capita_crime": 1.7391e-5,
+            "priority_cases_count": 4.0,
+            "crime_risk_0_100": 17.1637843876,
+            "response_efficiency_pct": 17.7777777778,
+            "resolution_rate_pct": 63.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-049",
+            "district": "Akola",
+            "complaints_logged": 70,
+            "crime_count_total": 42,
+            "per_capita_crime": 5.50125e-5,
+            "priority_cases_count": 4.0,
+            "crime_risk_0_100": 35.1819556951,
+            "response_efficiency_pct": 17.7777777778,
+            "resolution_rate_pct": 63.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-024",
+            "district": "Buldhana",
+            "complaints_logged": 75,
+            "crime_count_total": 41,
+            "per_capita_crime": 1.54533e-5,
+            "priority_cases_count": 4.0,
+            "crime_risk_0_100": 15.5425113082,
+            "response_efficiency_pct": 20.0,
+            "resolution_rate_pct": 63.5,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-032",
+            "district": "Palghar",
+            "complaints_logged": 75,
+            "crime_count_total": 40,
+            "per_capita_crime": 1.30385e-5,
+            "priority_cases_count": 4.0,
+            "crime_risk_0_100": 22.2937619868,
+            "response_efficiency_pct": 22.2222222222,
+            "resolution_rate_pct": 64.5,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-053",
+            "district": "Osmanabad",
+            "complaints_logged": 75,
+            "crime_count_total": 42,
+            "per_capita_crime": 1.39782e-5,
+            "priority_cases_count": 0.0,
+            "crime_risk_0_100": 16.5651224615,
+            "response_efficiency_pct": 22.2222222222,
+            "resolution_rate_pct": 64.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-046",
+            "district": "Nanded",
+            "complaints_logged": 75,
+            "crime_count_total": 43,
+            "per_capita_crime": 4.2509e-5,
+            "priority_cases_count": 4.0,
+            "crime_risk_0_100": 40.0471932003,
+            "response_efficiency_pct": 22.2222222222,
+            "resolution_rate_pct": 64.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-015",
+            "district": "Akola",
+            "complaints_logged": 80,
+            "crime_count_total": 48,
+            "per_capita_crime": 6.28714e-5,
+            "priority_cases_count": 5.0,
+            "crime_risk_0_100": 39.7994283062,
+            "response_efficiency_pct": 26.6666666667,
+            "resolution_rate_pct": 64.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-022",
+            "district": "Ratnagiri",
+            "complaints_logged": 80,
+            "crime_count_total": 40,
+            "per_capita_crime": 2.20179e-5,
+            "priority_cases_count": 5.0,
+            "crime_risk_0_100": 15.3843039418,
+            "response_efficiency_pct": 24.4444444444,
+            "resolution_rate_pct": 65.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-031",
+            "district": "Jalna",
+            "complaints_logged": 80,
+            "crime_count_total": 38,
+            "per_capita_crime": null,
+            "priority_cases_count": 5.0,
+            "crime_risk_0_100": 14.3815562354,
+            "response_efficiency_pct": 26.6666666667,
+            "resolution_rate_pct": 66.5,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-051",
+            "district": "Chandrapur",
+            "complaints_logged": 80,
+            "crime_count_total": 43,
+            "per_capita_crime": 1.18903e-5,
+            "priority_cases_count": 5.0,
+            "crime_risk_0_100": 24.0851680862,
+            "response_efficiency_pct": 26.6666666667,
+            "resolution_rate_pct": 68.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-019",
+            "district": "Osmanabad",
+            "complaints_logged": 85,
+            "crime_count_total": 46,
+            "per_capita_crime": 1.5842e-5,
+            "priority_cases_count": 5.0,
+            "crime_risk_0_100": 23.6137284166,
+            "response_efficiency_pct": 31.1111111111,
+            "resolution_rate_pct": 66.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-048",
+            "district": "Amravati",
+            "complaints_logged": 80,
+            "crime_count_total": 47,
+            "per_capita_crime": 3.12704e-5,
+            "priority_cases_count": 5.0,
+            "crime_risk_0_100": 27.4133475068,
+            "response_efficiency_pct": 31.1111111111,
+            "resolution_rate_pct": 65.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-012",
+            "district": "Nanded",
+            "complaints_logged": 85,
+            "crime_count_total": 49,
+            "per_capita_crime": 4.81769e-5,
+            "priority_cases_count": 5.0,
+            "crime_risk_0_100": 43.7258210948,
+            "response_efficiency_pct": 28.8888888889,
+            "resolution_rate_pct": 65.5,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-025",
+            "district": "Wardha",
+            "complaints_logged": 85,
+            "crime_count_total": 39,
+            "per_capita_crime": 2.28521e-5,
+            "priority_cases_count": 5.0,
+            "crime_risk_0_100": 14.721780958,
+            "response_efficiency_pct": 33.3333333333,
+            "resolution_rate_pct": 67.5,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-043",
+            "district": "Satara",
+            "complaints_logged": 85,
+            "crime_count_total": 42,
+            "per_capita_crime": 9.6872e-6,
+            "priority_cases_count": 5.0,
+            "crime_risk_0_100": 11.2562704145,
+            "response_efficiency_pct": 33.3333333333,
+            "resolution_rate_pct": 66.5,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-014",
+            "district": "Amravati",
+            "complaints_logged": 90,
+            "crime_count_total": 53,
+            "per_capita_crime": 3.51792e-5,
+            "priority_cases_count": 6.0,
+            "crime_risk_0_100": 30.3382311835,
+            "response_efficiency_pct": 35.5555555556,
+            "resolution_rate_pct": 67.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-027",
+            "district": "Beed",
+            "complaints_logged": 90,
+            "crime_count_total": 46,
+            "per_capita_crime": 3.52804e-5,
+            "priority_cases_count": 6.0,
+            "crime_risk_0_100": 32.466691796,
+            "response_efficiency_pct": 37.7777777778,
+            "resolution_rate_pct": 68.5,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-017",
+            "district": "Chandrapur",
+            "complaints_logged": 90,
+            "crime_count_total": 48,
+            "per_capita_crime": 1.33766e-5,
+            "priority_cases_count": 6.0,
+            "crime_risk_0_100": 25.9720285389,
+            "response_efficiency_pct": 40.0,
+            "resolution_rate_pct": 69.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-050",
+            "district": "Dhule",
+            "complaints_logged": 90,
+            "crime_count_total": 47,
+            "per_capita_crime": 2.50294e-5,
+            "priority_cases_count": 7.0,
+            "crime_risk_0_100": 26.2118024703,
+            "response_efficiency_pct": 46.6666666667,
+            "resolution_rate_pct": 70.0,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-009",
+            "district": "Satara",
+            "complaints_logged": 95,
+            "crime_count_total": 48,
+            "per_capita_crime": 1.08268e-5,
+            "priority_cases_count": 6.0,
+            "crime_risk_0_100": 12.9946072195,
+            "response_efficiency_pct": 39.1111111111,
+            "resolution_rate_pct": 68.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-041",
+            "district": "Kolhapur",
+            "complaints_logged": 90,
+            "crime_count_total": 44,
+            "per_capita_crime": 2.79242e-5,
+            "priority_cases_count": 6.0,
+            "crime_risk_0_100": 25.5838813781,
+            "response_efficiency_pct": 40.0,
+            "resolution_rate_pct": 68.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-020",
+            "district": "Parbhani",
+            "complaints_logged": 95,
+            "crime_count_total": 50,
+            "per_capita_crime": 9.3072e-6,
+            "priority_cases_count": 7.0,
+            "crime_risk_0_100": 20.1903351405,
+            "response_efficiency_pct": 44.4444444444,
+            "resolution_rate_pct": 70.5,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-045",
+            "district": "Jalgaon",
+            "complaints_logged": 95,
+            "crime_count_total": 48,
+            "per_capita_crime": 6.55636e-5,
+            "priority_cases_count": 6.0,
+            "crime_risk_0_100": 41.7391394519,
+            "response_efficiency_pct": 44.4444444444,
+            "resolution_rate_pct": 69.0,
+            "is_hotspot": false
+          },
+          {
+            "station_id": "PS-052",
+            "district": "Latur",
+            "complaints_logged": 95,
+            "crime_count_total": 51,
+            "per_capita_crime": 0.0001103469,
+            "priority_cases_count": 7.0,
+            "crime_risk_0_100": 59.9609249597,
+            "response_efficiency_pct": 42.2222222222,
+            "resolution_rate_pct": 72.0,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-007",
+            "district": "Kolhapur",
+            "complaints_logged": 100,
+            "crime_count_total": 51,
+            "per_capita_crime": 3.10269e-5,
+            "priority_cases_count": 7.0,
+            "crime_risk_0_100": 28.1633523272,
+            "response_efficiency_pct": 45.3333333333,
+            "resolution_rate_pct": 69.5,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-037",
+            "district": "Nashik",
+            "complaints_logged": 100,
+            "crime_count_total": 56,
+            "per_capita_crime": 9.3734e-6,
+            "priority_cases_count": 7.0,
+            "crime_risk_0_100": 17.0694627374,
+            "response_efficiency_pct": 42.2222222222,
+            "resolution_rate_pct": 70.0,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-016",
+            "district": "Dhule",
+            "complaints_logged": 100,
+            "crime_count_total": 52,
+            "per_capita_crime": 2.78104e-5,
+            "priority_cases_count": 8.0,
+            "crime_risk_0_100": 28.6534529648,
+            "response_efficiency_pct": 51.1111111111,
+            "resolution_rate_pct": 71.0,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-047",
+            "district": "Sangli",
+            "complaints_logged": 105,
+            "crime_count_total": 57,
+            "per_capita_crime": 1.18544e-5,
+            "priority_cases_count": 8.0,
+            "crime_risk_0_100": 17.2075207277,
+            "response_efficiency_pct": 51.1111111111,
+            "resolution_rate_pct": 73.0,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-011",
+            "district": "Jalgaon",
+            "complaints_logged": 105,
+            "crime_count_total": 54,
+            "per_capita_crime": 7.24651e-5,
+            "priority_cases_count": 7.0,
+            "crime_risk_0_100": 45.9463377741,
+            "response_efficiency_pct": 48.8888888889,
+            "resolution_rate_pct": 70.0,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-044",
+            "district": "Ahmednagar",
+            "complaints_logged": 110,
+            "crime_count_total": 56,
+            "per_capita_crime": 2.67301e-5,
+            "priority_cases_count": 7.0,
+            "crime_risk_0_100": 26.9561575116,
+            "response_efficiency_pct": 48.8888888889,
+            "resolution_rate_pct": 71.0,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-018",
+            "district": "Latur",
+            "complaints_logged": 105,
+            "crime_count_total": 57,
+            "per_capita_crime": 0.0001219624,
+            "priority_cases_count": 8.0,
+            "crime_risk_0_100": 66.188040725,
+            "response_efficiency_pct": 46.6666666667,
+            "resolution_rate_pct": 73.5,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-003",
+            "district": "Nashik",
+            "complaints_logged": 110,
+            "crime_count_total": 60,
+            "per_capita_crime": 1.03107e-5,
+            "priority_cases_count": 8.0,
+            "crime_risk_0_100": 18.721103068,
+            "response_efficiency_pct": 52.8888888889,
+            "resolution_rate_pct": 71.5,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-013",
+            "district": "Sangli",
+            "complaints_logged": 115,
+            "crime_count_total": 61,
+            "per_capita_crime": 1.29834e-5,
+            "priority_cases_count": 9.0,
+            "crime_risk_0_100": 18.941281302,
+            "response_efficiency_pct": 55.5555555556,
+            "resolution_rate_pct": 74.5,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-010",
+            "district": "Ahmednagar",
+            "complaints_logged": 120,
+            "crime_count_total": 61,
+            "per_capita_crime": 2.91601e-5,
+            "priority_cases_count": 8.0,
+            "crime_risk_0_100": 29.2473939505,
+            "response_efficiency_pct": 57.7777777778,
+            "resolution_rate_pct": 72.8,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-040",
+            "district": "Aurangabad",
+            "complaints_logged": 120,
+            "crime_count_total": 61,
+            "per_capita_crime": 1.60047e-5,
+            "priority_cases_count": 8.0,
+            "crime_risk_0_100": 25.6582733215,
+            "response_efficiency_pct": 53.3333333333,
+            "resolution_rate_pct": 71.8,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-006",
+            "district": "Aurangabad",
+            "complaints_logged": 130,
+            "crime_count_total": 66,
+            "per_capita_crime": 1.73384e-5,
+            "priority_cases_count": 9.0,
+            "crime_risk_0_100": 27.4797618795,
+            "response_efficiency_pct": 60.0,
+            "resolution_rate_pct": 73.0,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-042",
+            "district": "Solapur",
+            "complaints_logged": 135,
+            "crime_count_total": 67,
+            "per_capita_crime": 4.78912e-5,
+            "priority_cases_count": 9.0,
+            "crime_risk_0_100": 39.2520461222,
+            "response_efficiency_pct": 64.4444444444,
+            "resolution_rate_pct": 76.0,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-038",
+            "district": "Nagpur",
+            "complaints_logged": 140,
+            "crime_count_total": 66,
+            "per_capita_crime": 2.17805e-5,
+            "priority_cases_count": 10.0,
+            "crime_risk_0_100": 30.8139549616,
+            "response_efficiency_pct": 62.2222222222,
+            "resolution_rate_pct": 75.5,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-008",
+            "district": "Solapur",
+            "complaints_logged": 145,
+            "crime_count_total": 73,
+            "per_capita_crime": 5.14387e-5,
+            "priority_cases_count": 10.0,
+            "crime_risk_0_100": 42.0221137665,
+            "response_efficiency_pct": 70.6666666667,
+            "resolution_rate_pct": 77.0,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-004",
+            "district": "Nagpur",
+            "complaints_logged": 155,
+            "crime_count_total": 71,
+            "per_capita_crime": 2.41141e-5,
+            "priority_cases_count": 11.0,
+            "crime_risk_0_100": 33.0638896548,
+            "response_efficiency_pct": 66.6666666667,
+            "resolution_rate_pct": 76.8,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-035",
+            "district": "Pune",
+            "complaints_logged": 160,
+            "crime_count_total": 82,
+            "per_capita_crime": 7.7534e-5,
+            "priority_cases_count": 11.0,
+            "crime_risk_0_100": 53.8722133269,
+            "response_efficiency_pct": 73.3333333333,
+            "resolution_rate_pct": 77.5,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-001",
+            "district": "Pune",
+            "complaints_logged": 180,
+            "crime_count_total": 81,
+            "per_capita_crime": 8.72257e-5,
+            "priority_cases_count": 12.0,
+            "crime_risk_0_100": 59.2750322501,
+            "response_efficiency_pct": 78.2222222222,
+            "resolution_rate_pct": 78.2,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-039",
+            "district": "Thane",
+            "complaints_logged": 180,
+            "crime_count_total": 102,
+            "per_capita_crime": 5.61267e-5,
+            "priority_cases_count": 15.0,
+            "crime_risk_0_100": 59.3585657065,
+            "response_efficiency_pct": 80.0,
+            "resolution_rate_pct": 79.5,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-005",
+            "district": "Thane",
+            "complaints_logged": 195,
+            "crime_count_total": 112,
+            "per_capita_crime": 6.08039e-5,
+            "priority_cases_count": 16.0,
+            "crime_risk_0_100": 62.6127107312,
+            "response_efficiency_pct": 84.4444444444,
+            "resolution_rate_pct": 81.3,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-036",
+            "district": "Mumbai Suburban",
+            "complaints_logged": 200,
+            "crime_count_total": 113,
+            "per_capita_crime": null,
+            "priority_cases_count": 17.0,
+            "crime_risk_0_100": 26.5655834041,
+            "response_efficiency_pct": 91.1111111111,
+            "resolution_rate_pct": 83.0,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-002",
+            "district": "Mumbai Suburban",
+            "complaints_logged": 210,
+            "crime_count_total": 119,
+            "per_capita_crime": null,
+            "priority_cases_count": 18.0,
+            "crime_risk_0_100": 27.8155834041,
+            "response_efficiency_pct": 93.7777777778,
+            "resolution_rate_pct": 85.1,
+            "is_hotspot": true
+          },
+          {
+            "station_id": "PS-034",
+            "district": "Mumbai City",
+            "complaints_logged": 250,
+            "crime_count_total": 137,
+            "per_capita_crime": null,
+            "priority_cases_count": 20.0,
+            "crime_risk_0_100": 25.0,
+            "response_efficiency_pct": 100.0,
+            "resolution_rate_pct": 88.0,
+            "is_hotspot": true
+          }
+        ]
+      },
+      "status": "ok"
+    },
+    "citizenServicesFeedback": {
+      "label": "Citizen Services & Feedback",
+      "pipeline": "citizen-services-feedback",
+      "pattern": "Batch Job (to File)",
+      "destination": {
+        "type": "gcs",
+        "bucket": "citizen-services-feedback-bucket",
+        "blob": "csf_forecasts.json"
+      },
+      "dashboardComponent": "Citizen Services View",
+      "data": {
+        "forecasts": [
+          {
+            "district": "Osmanabad",
+            "service_type": "Public Safety",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.0714285714,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Akola",
+            "service_type": "Health Services",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.5,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Mumbai Suburban",
+            "service_type": "Property Tax",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.5,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Nashik",
+            "service_type": "Waste Management",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.1428571429,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.14,
+            "forecast_next_7d": 1.0,
+            "forecast_next_30d": 4.2857142857,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 8.9,
+            "backlog_eta_days": 7.0
+          },
+          {
+            "district": "Pune",
+            "service_type": "Health Services",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.3076923077,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Parbhani",
+            "service_type": "Health Services",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.0714285714,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Nashik",
+            "service_type": "Electricity Outage",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 0.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 3.3333333333,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 0.0
+          },
+          {
+            "district": "Mumbai Suburban",
+            "service_type": "Waste Management",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.5,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Mumbai Suburban",
+            "service_type": "Road Repair",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 3.0,
+            "expected_sla_breach_rate": 100.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Nanded",
+            "service_type": "Waste Management",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.0,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Nanded",
+            "service_type": "Public Safety",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.0714285714,
+            "expected_sla_breach_rate": 100.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Ahmednagar",
+            "service_type": "Water Supply Issue",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.7647058824,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Nagpur",
+            "service_type": "Electricity Outage",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.2,
+            "wow_change_pct": 0.0,
+            "open_eod": 0.0,
+            "forecast_per_day_next_7": 0.2,
+            "forecast_next_7d": 1.4,
+            "forecast_next_30d": 6.0,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 8.7,
+            "backlog_eta_days": 0.0
+          },
+          {
+            "district": "Parbhani",
+            "service_type": "Electricity Outage",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.1428571429,
+            "wow_change_pct": 0.0,
+            "open_eod": 0.0,
+            "forecast_per_day_next_7": 0.14,
+            "forecast_next_7d": 1.0,
+            "forecast_next_30d": 4.2857142857,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 9.3,
+            "backlog_eta_days": 0.0
+          },
+          {
+            "district": "Ahmednagar",
+            "service_type": "Waste Management",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.1428571429,
+            "wow_change_pct": 0.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.14,
+            "forecast_next_7d": 1.0,
+            "forecast_next_30d": 7.5,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 8.6,
+            "backlog_eta_days": 14.0
+          },
+          {
+            "district": "Palghar",
+            "service_type": "Electricity Outage",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.1428571429,
+            "wow_change_pct": 0.0,
+            "open_eod": 0.0,
+            "forecast_per_day_next_7": 0.14,
+            "forecast_next_7d": 1.0,
+            "forecast_next_30d": 4.0,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 9.0,
+            "backlog_eta_days": 0.0
+          },
+          {
+            "district": "Nagpur",
+            "service_type": "Water Supply Issue",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.7647058824,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Yavatmal",
+            "service_type": "Public Safety",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.0714285714,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Latur",
+            "service_type": "Road Repair",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 3.3333333333,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Osmanabad",
+            "service_type": "Waste Management",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 3.75,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Nashik",
+            "service_type": "Water Supply Issue",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.7272727273,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Nagpur",
+            "service_type": "Road Repair",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 3.0,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Beed",
+            "service_type": "Electricity Outage",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 0.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.1428571429,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 0.0
+          },
+          {
+            "district": "Akola",
+            "service_type": "Water Supply Issue",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 3.3333333333,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Sangli",
+            "service_type": "Health Services",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.0714285714,
+            "expected_sla_breach_rate": 100.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Satara",
+            "service_type": "Property Tax",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.2,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.2,
+            "forecast_next_7d": 1.4,
+            "forecast_next_30d": 6.0,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 8.4,
+            "backlog_eta_days": 5.0
+          },
+          {
+            "district": "Dhule",
+            "service_type": "Property Tax",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.7272727273,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Satara",
+            "service_type": "Road Repair",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 4.2857142857,
+            "expected_sla_breach_rate": 50.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Aurangabad",
+            "service_type": "Health Services",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.0714285714,
+            "expected_sla_breach_rate": 100.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Wardha",
+            "service_type": "Electricity Outage",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.1428571429,
+            "wow_change_pct": 0.0,
+            "open_eod": 0.0,
+            "forecast_per_day_next_7": 0.14,
+            "forecast_next_7d": 1.0,
+            "forecast_next_30d": 6.0,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 9.3,
+            "backlog_eta_days": 0.0
+          },
+          {
+            "district": "Sindhudurg",
+            "service_type": "Property Tax",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.25,
+            "wow_change_pct": 0.0,
+            "open_eod": 0.0,
+            "forecast_per_day_next_7": 0.25,
+            "forecast_next_7d": 1.75,
+            "forecast_next_30d": 7.5,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 8.5,
+            "backlog_eta_days": 0.0
+          },
+          {
+            "district": "Chandrapur",
+            "service_type": "Water Supply Issue",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 3.0,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Sindhudurg",
+            "service_type": "Road Repair",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 5.0,
+            "expected_sla_breach_rate": 50.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Solapur",
+            "service_type": "Health Services",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.1666666667,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.17,
+            "forecast_next_7d": 1.1666666667,
+            "forecast_next_30d": 5.0,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 7.8,
+            "backlog_eta_days": 6.0
+          },
+          {
+            "district": "Chandrapur",
+            "service_type": "Waste Management",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.1428571429,
+            "wow_change_pct": 0.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.14,
+            "forecast_next_7d": 1.0,
+            "forecast_next_30d": 6.0,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 8.8,
+            "backlog_eta_days": 14.0
+          },
+          {
+            "district": "Thane",
+            "service_type": "Waste Management",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 3.3333333333,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Solapur",
+            "service_type": "Water Supply Issue",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 3.1578947368,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Buldhana",
+            "service_type": "Water Supply Issue",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.7647058824,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Buldhana",
+            "service_type": "Waste Management",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 5.4545454545,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Beed",
+            "service_type": "Health Services",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.0714285714,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Thane",
+            "service_type": "Public Safety",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.0714285714,
+            "expected_sla_breach_rate": 100.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Aurangabad",
+            "service_type": "Electricity Outage",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 0.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 3.75,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 0.0
+          },
+          {
+            "district": "Latur",
+            "service_type": "Electricity Outage",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.1428571429,
+            "wow_change_pct": 0.0,
+            "open_eod": 0.0,
+            "forecast_per_day_next_7": 0.14,
+            "forecast_next_7d": 1.0,
+            "forecast_next_30d": 3.5294117647,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 9.1,
+            "backlog_eta_days": 0.0
+          },
+          {
+            "district": "Dhule",
+            "service_type": "Road Repair",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 4.6153846154,
+            "expected_sla_breach_rate": 50.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Gondia",
+            "service_type": "Water Supply Issue",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.1428571429,
+            "wow_change_pct": 0.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.14,
+            "forecast_next_7d": 1.0,
+            "forecast_next_30d": 3.75,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 7.7,
+            "backlog_eta_days": 14.0
+          },
+          {
+            "district": "Washim",
+            "service_type": "Public Safety",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.0714285714,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Pune",
+            "service_type": "Road Repair",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.3636363636,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Kolhapur",
+            "service_type": "Public Safety",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.1428571429,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.14,
+            "forecast_next_7d": 1.0,
+            "forecast_next_30d": 4.2857142857,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 7.0,
+            "backlog_eta_days": 7.0
+          },
+          {
+            "district": "Pune",
+            "service_type": "Water Supply Issue",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.0,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Kolhapur",
+            "service_type": "Property Tax",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.2222222222,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Jalna",
+            "service_type": "Waste Management",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 3.75,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Raigad",
+            "service_type": "Property Tax",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.4,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Amravati",
+            "service_type": "Property Tax",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.3076923077,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Raigad",
+            "service_type": "Public Safety",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.1666666667,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.17,
+            "forecast_next_7d": 1.1666666667,
+            "forecast_next_30d": 5.0,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 7.0,
+            "backlog_eta_days": 6.0
+          },
+          {
+            "district": "Ratnagiri",
+            "service_type": "Health Services",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.2,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.2,
+            "forecast_next_7d": 1.4,
+            "forecast_next_30d": 6.0,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 7.9,
+            "backlog_eta_days": 5.0
+          },
+          {
+            "district": "Jalgaon",
+            "service_type": "Road Repair",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.875,
+            "expected_sla_breach_rate": 100.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Jalgaon",
+            "service_type": "Electricity Outage",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.3333333333,
+            "wow_change_pct": 0.0,
+            "open_eod": 0.0,
+            "forecast_per_day_next_7": 0.33,
+            "forecast_next_7d": 2.3333333333,
+            "forecast_next_30d": 10.0,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 9.3,
+            "backlog_eta_days": 0.0
+          },
+          {
+            "district": "Amravati",
+            "service_type": "Public Safety",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.3076923077,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Ratnagiri",
+            "service_type": "Water Supply Issue",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 3.5294117647,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Hingoli",
+            "service_type": "Road Repair",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 3.5294117647,
+            "expected_sla_breach_rate": 100.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 200.0
+          },
+          {
+            "district": "Sangli",
+            "service_type": "Electricity Outage",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": -1.0,
+            "open_eod": 0.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.1428571429,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 0.0
+          },
+          {
+            "district": "Wardha",
+            "service_type": "Road Repair",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 1.875,
+            "expected_sla_breach_rate": 100.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          },
+          {
+            "district": "Gadchiroli",
+            "service_type": "Property Tax",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.1428571429,
+            "wow_change_pct": 0.0,
+            "open_eod": 2.0,
+            "forecast_per_day_next_7": 0.14,
+            "forecast_next_7d": 1.0,
+            "forecast_next_30d": 2.5,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 8.0,
+            "backlog_eta_days": 14.0
+          },
+          {
+            "district": "Yavatmal",
+            "service_type": "Waste Management",
+            "req_day": 1762300800000,
+            "req_count_7d_ma": 0.0,
+            "wow_change_pct": 0.0,
+            "open_eod": 1.0,
+            "forecast_per_day_next_7": 0.0,
+            "forecast_next_7d": 0.0,
+            "forecast_next_30d": 2.0,
+            "expected_sla_breach_rate": 0.0,
+            "expected_satisfaction_next_7d": 0.0,
+            "backlog_eta_days": 100.0
+          }
+        ],
+        "dashboard": {
+          "Ahmednagar": {
+            "metrics": [0.1, 42.7, 4.3, 0.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Ahmednagar (Water Supply Issue)"
+            }
+          },
+          "Akola": {
+            "metrics": [0.0, 166.7, 0.0, 0.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Akola (Health Services)"
+            }
+          },
+          "Amravati": {
+            "metrics": [0.0, 166.7, 0.0, 0.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Amravati (Property Tax)"
+            }
+          },
+          "Aurangabad": {
+            "metrics": [0.0, 200.0, 0.0, 50.0],
+            "pending": 2,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Aurangabad (Health Services)"
+            }
+          },
+          "Beed": {
+            "metrics": [0.0, 200.0, 0.0, 0.0],
+            "pending": 2,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Beed (Electricity Outage)"
+            }
+          },
+          "Buldhana": {
+            "metrics": [0.0, 166.7, 0.0, 0.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Buldhana (Water Supply Issue)"
+            }
+          },
+          "Chandrapur": {
+            "metrics": [0.1, 42.7, 4.4, 0.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Chandrapur (Waste Management)"
+            }
+          },
+          "Dhule": {
+            "metrics": [0.0, 166.7, 0.0, 25.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Dhule (Property Tax)"
+            }
+          },
+          "Gadchiroli": {
+            "metrics": [0.1, 14.0, 8.0, 0.0],
+            "pending": 2,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Gadchiroli (Property Tax)"
+            }
+          },
+          "Gondia": {
+            "metrics": [0.1, 14.0, 7.7, 0.0],
+            "pending": 2,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Gondia (Water Supply Issue)"
+            }
+          },
+          "Hingoli": {
+            "metrics": [0.0, 200.0, 0.0, 100.0],
+            "pending": 2,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Hingoli (Road Repair)"
+            }
+          },
+          "Jalgaon": {
+            "metrics": [0.3, 100.0, 4.7, 50.0],
+            "pending": 1,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Jalgaon (Road Repair)"
+            }
+          },
+          "Jalna": {
+            "metrics": [0.0, 200.0, 0.0, 0.0],
+            "pending": 2,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Jalna (Waste Management)"
+            }
+          },
+          "Kolhapur": {
+            "metrics": [0.1, 135.7, 3.5, 0.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Kolhapur (Public Safety)"
+            }
+          },
+          "Latur": {
+            "metrics": [0.1, 100.0, 4.5, 0.0],
+            "pending": 1,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Latur (Electricity Outage)"
+            }
+          },
+          "Mumbai Suburban": {
+            "metrics": [0.0, 100.0, 0.0, 33.3],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Mumbai Suburban (Property Tax)"
+            }
+          },
+          "Nagpur": {
+            "metrics": [0.2, 100.0, 2.9, 0.0],
+            "pending": 2,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Nagpur (Electricity Outage)"
+            }
+          },
+          "Nanded": {
+            "metrics": [0.0, 166.7, 0.0, 50.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Nanded (Waste Management)"
+            }
+          },
+          "Nashik": {
+            "metrics": [0.1, 53.5, 3.0, 0.0],
+            "pending": 2,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Nashik (Waste Management)"
+            }
+          },
+          "Osmanabad": {
+            "metrics": [0.0, 166.7, 0.0, 0.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Osmanabad (Public Safety)"
+            }
+          },
+          "Palghar": {
+            "metrics": [0.1, 0.0, 9.0, 0.0],
+            "pending": 0,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Palghar (Electricity Outage)"
+            }
+          },
+          "Parbhani": {
+            "metrics": [0.1, 200.0, 4.7, 0.0],
+            "pending": 2,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Parbhani (Health Services)"
+            }
+          },
+          "Pune": {
+            "metrics": [0.0, 100.0, 0.0, 0.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Pune (Road Repair)"
+            }
+          },
+          "Raigad": {
+            "metrics": [0.2, 135.3, 3.5, 0.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Raigad (Public Safety)"
+            }
+          },
+          "Ratnagiri": {
+            "metrics": [0.2, 135.0, 4.0, 0.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Ratnagiri (Health Services)"
+            }
+          },
+          "Sangli": {
+            "metrics": [0.0, 200.0, 0.0, 50.0],
+            "pending": 2,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Sangli (Health Services)"
+            }
+          },
+          "Satara": {
+            "metrics": [0.2, 135.0, 4.2, 25.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Satara (Property Tax)"
+            }
+          },
+          "Sindhudurg": {
+            "metrics": [0.2, 200.0, 4.2, 25.0],
+            "pending": 2,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Sindhudurg (Property Tax)"
+            }
+          },
+          "Solapur": {
+            "metrics": [0.2, 135.3, 3.9, 0.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Solapur (Health Services)"
+            }
+          },
+          "Thane": {
+            "metrics": [0.0, 166.7, 0.0, 50.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Thane (Public Safety)"
+            }
+          },
+          "Wardha": {
+            "metrics": [0.1, 100.0, 4.7, 50.0],
+            "pending": 1,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Wardha (Electricity Outage)"
+            }
+          },
+          "Washim": {
+            "metrics": [0.0, 200.0, 0.0, 0.0],
+            "pending": 2,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Washim (Public Safety)"
+            }
+          },
+          "Yavatmal": {
+            "metrics": [0.0, 166.7, 0.0, 0.0],
+            "pending": 3,
+            "alert": {
+              "title": "Citizen Services",
+              "description": "Stable demand in Yavatmal (Waste Management)"
+            }
+          }
+        }
+      },
+      "status": "ok"
+    }
+  }
+}
