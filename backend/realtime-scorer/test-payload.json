@@ -1,0 +1,18 @@
+{
+"district": "Pune - Combined Targeted",
+"pm25_level": 300.0,
+"pm10_level": 320.0,
+"air_quality_index": 280.0,
+"water_quality_index": 0.0,
+"waste_collection_efficiency": 0.0,
+"population_density_per_sqkm": 5000.0,
+"avg_household_size": 7.0,
+"patient_inflow_mean": 6000.0,
+"pm25_roll_1w": 560.0,
+"pm25_roll_2w": 300.0,
+"pm25_roll_4w": 150.0,
+"patient_inflow_roll_1w": 5800.0,
+"patient_inflow_roll_2w": 2200.0,
+"patient_inflow_roll_4w": 800.0
+}
+

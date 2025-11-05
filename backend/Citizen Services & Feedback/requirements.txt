@@ -1,0 +1,6 @@
+functions-framework
+pandas
+numpy
+google-cloud-bigquery
+db-dtypes
+google-cloud-storage

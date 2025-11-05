@@ -1,0 +1,9 @@
+functions-framework
+google-cloud-firestore
+google-cloud-aiplatform
+google-cloud-bigquery
+pandas
+scikit-learn
+numpy
+joblib
+xgboost
